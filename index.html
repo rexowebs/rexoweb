@@ -63,7 +63,7 @@
                     Sobre nosotros
                   </a>
                   <div
-                    class="dropdown-menu bg-transparente text-center"
+                    class="dropdown-menu bg-negro text-center"
                     aria-labelledby="sobreNosotrosDropdown"
                   >
                     <a class="dropdown-item white" href="#">Política de privacidad</a>
@@ -83,7 +83,7 @@
                     Contáctanos
                   </a>
                   <div
-                    class="dropdown-menu bg-transparente text-center"
+                    class="dropdown-menu bg-negro text-center"
                     aria-labelledby="contactanosDropdown"
                   >
                     <a class="dropdown-item white" href="#">665 37 25 10</a>
@@ -312,222 +312,57 @@
       </div>
     </section>
     <!-- ACABA PRIMER SLIDER -->
-
-    <!-- EMPIEZA SEGUNDO SLIDER -->
-    <section data-aos="zoom-in-up">
-      <div class="row m-0">
-        <div class="col-12 text-center">
-          <p
-            style="
-              font-weight: 700;
-              letter-spacing: -2px;
-              font-size: calc(1.525rem + 2.5vw);
-              padding-bottom: 20px;
-            "
-          >
-            Ofertas Del Mes
-          </p>
-        </div>
-      </div>
-
-      <div class="row m-0">
-        <div class="col-12">
-          <div class="slider-wrap m-auto">
-            <div class="slider">
-              <div class="slider-inner">
-                <div class="item">
-                  <a href="#" class="text-decoration-none">
-                    <div class="item-img">
-                      <img
-                        src="assets/img/guitar01.png"
-                        alt="guitar"
-                        class="w-50"
-                      />
-                    </div>
-                    <p class="fw-bold fs-4">Cuerda</p>
-                  </a>
-                </div>
-                <div class="item">
-                  <a href="#" class="text-decoration-none">
-                    <div class="item-img">
-                      <img
-                        src="assets/img/guitar02.png"
-                        alt="guitar"
-                        class="w-50"
-                      />
-                    </div>
-                    <p class="fw-bold fs-4">Metal</p>
-                  </a>
-                </div>
-                <div class="item">
-                  <a href="#" class="text-decoration-none">
-                    <div class="item-img">
-                      <img
-                        src="assets/img/guitar03.png"
-                        alt="guitar"
-                        class="w-50"
-                      />
-                    </div>
-                    <p class="fw-bold fs-4">Percusión</p>
-                  </a>
-                </div>
-                <div class="item">
-                  <a href="#" class="text-decoration-none">
-                    <div class="item-img">
-                      <img
-                        src="assets/img/guitar01.png"
-                        alt="guitar"
-                        class="w-50"
-                      />
-                    </div>
-                    <p class="fw-bold fs-4">Grabación</p>
-                  </a>
-                </div>
-                <div class="item">
-                  <a href="#" class="text-decoration-none">
-                    <div class="item-img">
-                      <img
-                        src="assets/img/guitar02.png"
-                        alt="guitar"
-                        class="w-50"
-                      />
-                    </div>
-                    <p class="fw-bold fs-4">Iluminación</p>
-                  </a>
-                </div>
-
-                <div class="item">
-                  <a href="#" class="text-decoration-none">
-                    <div class="item-img">
-                      <img
-                        src="assets/img/guitar01.png"
-                        alt="guitar"
-                        class="w-50"
-                      />
-                    </div>
-                    <p class="fw-bold fs-4">Partituras y Métodos</p>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- ACABA SEGUNDO SLIDER -->
     <script src="js/app.js"></script>
 
     <!-- EMPIEZA FORMULARIO -->
     <section class="formularioVenta" data-aos="zoom-in-up">
-      <!-- div container principal-->
       <div class="container formulario">
-        <!-- Formulario con clase bootstrap -->
-        <form action="" class="needs-validation" novalidate>
-          <!-- Fila -->
+        <form action="https://formsubmit.co/7cf9201bcde89f22aff9bcf631221448" method="POST" class="needs-validation">
           <div class="row">
-            <!-- H1 y p -->
-            <h1>Vende con nosotros</h1>
+            <h1>Contacta con nosotros</h1>
             <p class="parrafo">
-              Indica tus datos y lo que deseas vender para que valoremos tu
-              propuesta
+              Indicannos tus datos y lo que necesitas para que te respondamos lo antes posible
             </p>
-
-            <!-- Columna izquierda -->
             <div class="col-sm-6">
-              <!-- divs con p para cada input. 2 divs con feedback positivo o negativo dependiendo de lo introducido -->
-
-              <!-- input nombre instrumento -->
               <div>
-                <p>Nombre del instrumento <span>*</span></p>
+                <p>Nombre/Nombre de la empresa<span>*</span></p>
                 <input
                   type="text"
+                  name="nombre"
                   class="form-control"
-                  placeholder="Nombre Instrumento"
+                  placeholder="Nombre"
                   id="nombre"
                   required
                 />
                 <div class="valid-feedback"></div>
                 <div class="invalid-feedback">
-                  Por favor, indica el nombre del producto.
-                </div>
-              </div>
-
-              <!-- input imágenes artículos -->
-              <div>
-                <p>Imágenes del artículo <span>*</span></p>
-                <input
-                  type="file"
-                  class="form-control"
-                  accept="image/*"
-                  multiple
-                  progress
-                  required
-                />
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback">
-                  Por favor, suba fotos del producto.
-                </div>
-              </div>
-
-              <!-- input precio instrumento -->
-              <div>
-                <p>Precio del instrumento (€) <span>*</span></p>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Precio Instrumento"
-                  id="precio"
-                  required
-                  oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1').replace(/^0[^.]/, '0');"
-                />
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback">
-                  Por favor, indique el precio del producto.
+                  Por favor, indicanos tu nombre o el de tu empresa
                 </div>
               </div>
             </div>
 
-            <!-- columna derecha -->
             <div class="col-sm-6">
-              <!-- input fecha alta instrumento -->
               <div>
-                <p>Fecha alta del instr. <span>*</span></p>
-                <input class="form-control" type="date" required />
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback">
-                  Por favor, indique la fecha de alta.
-                </div>
-              </div>
-
-              <!-- input fecha expiración instrumento -->
-              <div>
-                <p>Fecha expiración del instr. <span>*</span></p>
-                <input class="form-control" type="date" required />
-                <div class="valid-feedback"></div>
-                <div class="invalid-feedback">
-                  Por favor, indique la fecha de expiración.
-                </div>
-              </div>
-
-              <!-- input año fabricación instrumento -->
-              <div>
-                <p>Año fabricación del instr. <span>*</span></p>
+                <p>Email <span>*</span></p>
                 <input
+                  type="email"
+                  name="email"
                   class="form-control"
-                  type="number"
-                  min="1900"
-                  max="2022"
-                  step="1"
-                  value="2016"
+                  placeholder="Nombre Instrumento"
+                  id="email"
                   required
                 />
+                <div class="valid-feedback"></div>
+                <div class="invalid-feedback">
+                  Por favor, indicanos el email con el que quieres que contactemos.
+                </div>
               </div>
             </div>
 
             <div class="col-sm-12">
               <!-- textarea observaciones -->
               <div>
-                <p>Observaciones</p>
+                <p>Cuentanos que necesitas y mas datos adicionales si asi lo deseas</p>
                 <textarea
                   class="form-control"
                   name="observaciones"
@@ -536,44 +371,9 @@
                 ></textarea>
               </div>
             </div>
-
-            <div class="col-sm-12">
-              <!-- input forma de envío -->
-              <div>
-                <p>Selecciona forma de envío: <span>*</span></p>
-                <div>
-                  <input
-                    class="form-check-input"
-                    id="domicilio"
-                    type="radio"
-                    name="correo"
-                    value="domicilio"
-                    required
-                  />
-                  <label class="form-check-label" for="domicilio"
-                    >Domicilio</label
-                  >
-                </div>
-
-                <div>
-                  <input
-                    class="form-check-input"
-                    id="correo"
-                    type="radio"
-                    name="correo"
-                    value="correo"
-                    required
-                  />
-                  <label class="form-check-label" for="correo">Correo</label>
-                  <div class="invalid-feedback">
-                    Selecciona una opción de envío.
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- input enviar -->
+           <!-- input enviar -->
             <input class="form-control" type="submit" value="ENVIAR" />
+            <input type="hidden" name="_next" value="https://rexowebs.es/">
           </div>
         </form>
 
@@ -602,8 +402,6 @@
         </script>
       </div>
     </section>
-    <!-- ACABA FORMULARIO -->
-
     <!-- EMPIEZA INFO VENTA -->
     <section class="boletin">
       <div class="row m-0 align-items-center">
