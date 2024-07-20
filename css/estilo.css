@@ -94,8 +94,8 @@ section {
   overflow-x: auto;
   overflow-y: hidden;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .slider::-webkit-scrollbar {
@@ -203,7 +203,7 @@ header .navbar-scroll .logo {
 }
 
 .formularioVenta {
-  background-color: #e8d6ff;
+  background-color: black;
   padding: 30px 0px;
   /* color para los span */
   /* margen arriba y abajo para los p */
@@ -213,7 +213,7 @@ header .navbar-scroll .logo {
   background-color: #f2f2f2;
   transition: 0.3s;
 }
-.formularioVenta input[type=submit]:hover {
+.formularioVenta input[type="submit"]:hover {
   background-color: black;
   color: white;
   transition: 0.4s;
@@ -234,7 +234,7 @@ header .navbar-scroll .logo {
   background-color: #e8d6ff;
   margin-right: 5px;
   -webkit-clip-path: circle(40% at 50% 50%);
-          clip-path: circle(40% at 50% 50%);
+  clip-path: circle(40% at 50% 50%);
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -245,10 +245,11 @@ header .navbar-scroll .logo {
 /* atributos para el contenedor principal */
 .formulario {
   width: 100%;
-  background-color: #e8d6ff;
+  background-color: black;
   padding: 0px 45px;
   font-family: "Alata";
   margin: 0 auto;
+  color: white;
 }
 
 /* color específico para la clase parrafo */
@@ -269,7 +270,7 @@ textarea {
 }
 
 /* atributos para el input enviar */
-input[type=submit] {
+input[type="submit"] {
   margin: 20px 0px;
   font-size: 25px;
   box-shadow: none;
@@ -279,13 +280,13 @@ input[type=submit] {
 .boletin {
   font-family: "Alata";
 }
-.boletin input[type=text] {
+.boletin input[type="text"] {
   background-color: rgb(244, 244, 244);
   border: 2px solid rgb(233, 233, 233);
   box-shadow: none;
   line-height: 2.5;
 }
-.boletin input[type=submit] {
+.boletin input[type="submit"] {
   background-color: rgb(255, 255, 255);
   border: 2px solid rgb(0, 0, 0);
   box-shadow: none;
@@ -298,7 +299,7 @@ input[type=submit] {
 .boletin form div {
   padding: 10px 10px;
 }
-.boletin input[type=submit]:hover {
+.boletin input[type="submit"]:hover {
   background-color: #e8d6ff;
   transition: 0.4s;
 }
