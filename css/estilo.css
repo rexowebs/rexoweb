@@ -231,14 +231,14 @@ header .navbar-scroll .logo {
 }
 
 .redes-sociales > * {
-  background-color: #e8d6ff;
+  background-color: white;
   margin-right: 5px;
   -webkit-clip-path: circle(40% at 50% 50%);
   clip-path: circle(40% at 50% 50%);
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border: 10px solid #e8d6ff;
+  border: 10px solid white;
   color: black;
 }
 
@@ -325,7 +325,7 @@ input#newsletter:focus {
 }
 footer {
   background-color: black;
-  color: #e8d6ff;
+  color: white;
   padding: 40px 30px;
   font-family: "Alata";
 }
@@ -333,7 +333,7 @@ footer .col-6 div {
   margin-top: 20px;
 }
 footer a {
-  color: #e8d6ff;
+  color: white;
   text-decoration: none;
 }
 footer a:hover {
