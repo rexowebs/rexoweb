@@ -181,14 +181,16 @@ header .navbar-scroll .logo {
     order: 3;
   }
   header .nav-item .nav-link {
-    background-color: #e8d6ff;
+    background-color: black;
     text-align: center;
     padding: 0px;
     margin: 8px 0px;
   }
   header .collapse {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    /* border-top: 2px solid black; */
+    /* border-bottom: 2px solid black; */
+    max-width: 100%;
+    margin: 0;
   }
   header .nav-item {
     border-top: solid 1px rgb(205, 205, 205);
@@ -197,7 +199,7 @@ header .navbar-scroll .logo {
     border-top: none;
   }
   header .navbar-nav {
-    background-color: #e8d6ff;
+    background-color: black;
     padding: 0px 30px;
   }
 }
