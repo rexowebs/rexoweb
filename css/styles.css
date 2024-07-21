@@ -8,3 +8,11 @@
 .text-center {
   text-align: center;
 }
+
+.m-w60 {
+  max-width: 60%;
+}
+
+.m-r20 {
+  margin-right: 20%;
+}
