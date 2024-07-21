@@ -16,3 +16,15 @@
 .m-r5 {
   margin-right: 5%;
 }
+
+.img-logo-header {
+  width: 50%;
+  height: 50%;
+}
+
+@media (max-width: 768px) {
+  .img-logo-header {
+    width: 100%;
+    height: 100%;
+  }
+}
