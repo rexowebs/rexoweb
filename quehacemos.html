@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RexoWeb's || ¿Qué hacemos?</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://getbootstrap.com/docs/5.2/assets/css/docs.css"
+      rel="stylesheet"
+    />
+    <!--<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.css" />-->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link href="https://fonts.googleapis.com/css?family=Alata" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/png" sizes="100x100" href="assets/img/RexoWebsNegro-removebg-preview.png">
+
+    <!--<script src="vendor/bootstrap/js/bootstrap.js"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  </head>
+
+  <style>
+    .ptexto {
+      font-family: "League Spartan", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      font-size: 100px;
+    }
+
+    .ptexto2 {
+      font-family: "League Spartan", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 900;
+      font-style: normal;
+      font-size: 40px;
+      margin-bottom: 0;
+      color: rgb(30, 208, 199);
+    }
+
+    .ptexto3 {
+      font-family: "League Spartan", sans-serif;
+      font-optical-sizing: auto;
+      font-weight:500;
+      font-style: normal;
+      font-size: 20px;
+      top: 0;
+      color: rgb(30, 208, 199);
+     
+    }
+
+    .dropdown-menu{
+      border-radius: 30px;
+      opacity: 0.8;
+    }
+
+    .dropdown-item:hover{
+      color: purple;
+      transform: scale(1.1);
+      transition: all 0.5s;
+      background-color: transparent;
+    }
+
+    .marginderecha{
+      margin-right: 13%;
+    }
+    
+    .marginizquierda{
+      margin-left:2% !important;
+    }
+
+    .column{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .feature-box {
+    text-align: justify;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; 
+    padding: 20px; 
+    background-color: #ffffff; 
+}
+
+
+        .feature-box i {
+            font-size: 40px;
+            color: #007bff;
+        }
+        .benefits-box {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .benefits-box h4 {
+            margin-bottom: 15px;
+        }
+    
+  </style>
+
+  <body>
+    <!-- EMPIEZA HEADER -->
+    <header>
+      <div class="header-inner" data-aos="fade-down">
+        <div class="container-fluid px-lg-5">
+          <nav class="navbar navbar-expand-lg hola flex justify-content-between">
+            <a class="navbar-brand m-0" style="width: 100px;" href="index.html">
+              <img
+                src="assets/img/RexoWebsNegro-removebg-preview.png"
+                class="logo img-fluid w-100"
+                alt="logos"
+              />
+            </a>
+            <div class="collapse navbar-collapse m-w60 m-r5" id="navbarToggler">
+              <ul class="navbar-nav justify-content-around flex-grow-1">
+                <li class="nav-item">
+                  <a class="nav-link" href="./quehacemos.html">¿Qué hacemos?</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="sobreNosotrosDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Sobre nosotros
+                  </a>
+                  <div
+                    class="dropdown-menu bg-negro text-center"
+                    aria-labelledby="sobreNosotrosDropdown"
+                  >
+                    <a class="dropdown-item white" href="./politicaPrivacidad.html">Política de privacidad</a>
+                    <a class="dropdown-item white" href="./avisoLegal.html">Aviso legal</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="contactanosDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Contáctanos
+                  </a>
+                  <div
+                    class="dropdown-menu bg-negro text-center"
+                    aria-labelledby="contactanosDropdown"
+                  >
+                    <a class="dropdown-item white" href="tel:+34665372510">665 37 25 10</a>
+                    <a class="dropdown-item white" href="tel:+34644768508">644 76 85 08</a>
+                    <a class="dropdown-item white" href="mailto:soporte@rexowebs.com">soporte@rexowebs.com</a>
+                  </div>
+                </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+              <div class="right-menu">
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarToggler"
+                  aria-controls="navbarToggler"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="material-icons white">menu</span>
+                </button>
+              </div>
+            </div>
+            
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <script type="text/javascript">
+      $(function () {
+        var navbar = $(".header-inner");
+        $(window).scroll(function () {
+          if ($(window).scrollTop() <= 40) {
+            navbar.removeClass("navbar-scroll");
+          } else {
+            navbar.addClass("navbar-scroll");
+          }
+        });
+      });
+    </script>
+    <!-- ACABA HEADER -->
+
+    <!-- EMPIEZA PORTADA -->
+    <section class="content-banner">
+      <div class="container" data-aos="fade-down">
+        <div class="row align-items-center">
+          <div class="col-md-12 order-md-first order-last">
+            <div class="text-center welcome-top">
+              <div>
+                <img
+                  src="assets/img/RexoWebsNegro-removebg-preview.png"
+                  alt="" class="m-auto d-block img-logo-header"
+                />
+              </div>
+            </div>
+          </div>
+          <!--<div class="col-md-6 order-1">
+            <div>
+              <picture>
+                <source srcset="assets/img/Paginas__10_-removebg-preview.png" type="image/png" />
+                <img src="assets/img/Paginas__10_-removebg-preview.png" alt="" class="m-auto d-block w-100" />
+              </picture>
+            </div>
+          </div>-->
+        </div>
+        <div style="display: flex; align-items: center; justify-content: center">
+          <p class="ptexto text-center" style="font-weight: 500; letter-spacing: -2px; font-size: calc(1.525rem + 2.5vw)">
+            "Diseñamos tu éxito en la web"
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ACABA PORTADA -->
+
+    <!-- EMPIEZA SOBRE NOSOTROS -->
+    <section
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
+      <div class="row m-0 align-items-center justify-content-center">
+        <div class="col-md-8">
+          <div class="row ">
+            
+            <div
+              class="col-lg-12 mh-50 m-auto "
+              style="font-size: calc(0.725rem + 0.3vw)"
+            >
+
+            <div class="section row d-flex justify-content-center align-items-center" data-aos="fade-right">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <img src="assets/img/sitio-web.gif" alt="Páginas Web" class="w-25">
+                    <div class="text-left">
+                        <p style="font-weight: 700">Páginas Web</p>
+                        <p>En RexoWeb's, creamos páginas web únicas y funcionales que reflejan la identidad de tu negocio. Nos aseguramos de que cada sitio web sea intuitivo y atractivo, optimizando la experiencia del usuario. Nuestro equipo de diseñadores y desarrolladores trabaja en estrecha colaboración contigo para crear un espacio digital que no solo atraiga a los visitantes, sino que también convierta esas visitas en resultados tangibles para tu empresa.</p>
+                    </div>
+                </div>
+            </div><br>
+    
+            <div class="section row d-flex justify-content-center align-items-center" data-aos="fade-left">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <div class="text-left">
+                        <p style="font-weight: 700">Diseño Web</p>
+                        <p>El diseño web en RexoWeb's se basa en la creatividad y la funcionalidad. Diseñamos interfaces visualmente impactantes y fáciles de navegar, asegurándonos de que cada elemento gráfico y de contenido esté estratégicamente ubicado para mejorar la experiencia del usuario. Nos enfocamos en hacer que tu sitio web sea una herramienta poderosa para comunicar tu marca y captar la atención de tu audiencia.</p>
+                    </div>
+                    <img src="assets/img/diseñoweb.gif" alt="Diseño Web" class="w-25">
+                </div>
+            </div><br>
+    
+            <div class="section row d-flex justify-content-center align-items-center" data-aos="fade-right">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <img src="assets/img/sistemasinf.gif" alt="Sistemas Informáticos" class="w-25">
+                    <div class="text-left">
+                        <p style="font-weight: 700">Sistemas Informáticos</p>
+                        <p>En RexoWeb's, ofrecemos servicios especializados en el arreglo y mantenimiento de sistemas informáticos. Nuestro equipo de técnicos capacitados se encarga de solucionar problemas, reparar ordenadores y optimizar el rendimiento de tus equipos. Nos enfocamos en diagnosticar y resolver cualquier inconveniente con rapidez y eficacia, garantizando que tus sistemas estén siempre operativos y funcionando de manera óptima. Con RexoWeb's, puedes confiar en que tu infraestructura informática estará en las mejores manos, permitiéndote mantener la productividad y eficiencia de tu negocio.</p>
+                    </div>
+                </div>
+            </div><br>
+    
+            <div class="section row d-flex justify-content-center align-items-center" data-aos="fade-left">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">                
+                    <div class="text-left">
+                        <p style="font-weight: 700">Gestión de Datos</p>
+                        <p>La gestión de datos en RexoWeb's se centra en la organización, almacenamiento y análisis eficiente de la información de tu empresa. Implementamos soluciones que permiten un acceso rápido y seguro a los datos, facilitando la toma de decisiones basada en información precisa y actualizada. Nuestro objetivo es transformar tus datos en activos valiosos que impulsen el éxito de tu negocio.</p>
+                    </div>
+                    <img src="assets/img/gestiondedatos.gif" alt="Gestión de Datos" class="w-25">
+                </div>
+            </div><br>
+    
+            <div class="section row d-flex justify-content-center align-items-center" data-aos="fade-right">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <img src="assets/img/seo.gif" alt="Optimización SEO" class="w-25">
+                    <div class="text-left">
+                        <p style="font-weight: 700">Optimización SEO</p>
+                        <p>En RexoWeb's, entendemos la importancia de la visibilidad en línea. Por ello, ofrecemos servicios de optimización SEO que mejoran el posicionamiento de tu sitio web en los motores de búsqueda. Utilizamos técnicas avanzadas y estrategias probadas para incrementar el tráfico orgánico y asegurar que tu página web llegue a la audiencia adecuada, aumentando así tus oportunidades de negocio y crecimiento.</p>
+                    </div>
+                </div>
+            </div><br>
+    
+            <div class="section row d-flex justify-content-center align-items-center" data-aos="fade-left">
+                <div class="col-md-12 d-flex justify-content-center align-items-center">
+                    <div class="text-left">
+                        <p style="font-weight: 700">Base de Datos</p>
+                        <p>Desarrollamos y gestionamos bases de datos robustas y seguras que soportan las operaciones críticas de tu empresa. En RexoWeb's, diseñamos bases de datos eficientes que garantizan el almacenamiento y la recuperación rápida de información, permitiendo una gestión de datos eficaz. Nuestro enfoque se centra en la integridad, la seguridad y la escalabilidad, asegurando que tus datos estén siempre protegidos y accesibles.</p>
+                    </div>
+                    <img src="assets/img/bd.gif" alt="Base de Datos" class="w-25">
+                </div>
+            </div><br>
+              
+           <hr>
+           <br>
+           <div class="row">
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-wallet"></i>
+                <h4>Adaptabilidad de Presupuestos</h4>
+                <p>Ofrecemos soluciones personalizadas que se ajustan a cualquier presupuesto, desde pequeñas empresas hasta grandes corporaciones.</p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-headset"></i>
+                <h4>Atención al Cliente Personalizada</h4>
+                <p>Brindamos atención al cliente de alta calidad, disponible para responder a tus preguntas y resolver problemas en cualquier momento.</p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-desktop"></i>
+                <h4>Diseño Responsivo</h4>
+                <p>Nuestras páginas web están optimizadas para verse perfectamente en todos los dispositivos, desde ordenadores de escritorio hasta móviles.</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-search"></i>
+                <h4>Optimización SEO</h4>
+                <p>Implementamos técnicas avanzadas de SEO para asegurar que tu página web aparezca en los primeros resultados de búsqueda de Google.</p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-cogs"></i>
+                <h4>Desarrollo Web a Medida</h4>
+                <p>Creamos sitios web personalizados que se ajustan a las necesidades específicas de tu negocio.</p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-shopping-cart"></i>
+                <h4>Integración de eCommerce</h4>
+                <p>Desarrollamos tiendas en línea seguras y funcionales, con pasarelas de pago integradas y gestión de inventario.</p>
+            </div>
+        </div>
+    
+        <div class="row">
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-tools"></i>
+                <h4>Mantenimiento y Soporte Continuo</h4>
+                <p>Ofrecemos servicios de mantenimiento y actualización para asegurar que tu sitio web esté siempre al día y funcionando sin problemas.</p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-tachometer-alt"></i>
+                <h4>Velocidad y Rendimiento</h4>
+                <p>Optimizamos el rendimiento de tu sitio web para garantizar tiempos de carga rápidos y una experiencia de usuario fluida.</p>
+            </div>
+            <div class="col-md-4 feature-box">
+                <i class="fas fa-lock"></i>
+                <h4>Seguridad Web</h4>
+                <p>Implementamos medidas de seguridad robustas para proteger tu sitio web contra amenazas y ataques.</p>
+            </div>
+        </div>
+    <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="benefits-box">
+                    <h4>Beneficios para tus clientes</h4>                   
+                    <ul>
+                        <li><strong>Mayor Visibilidad Online:</strong> Incrementa tu presencia en línea y atrae a más clientes potenciales.</li>
+                        <li><strong>Experiencia de Usuario Mejorada:</strong> Ofrece una navegación fácil e intuitiva, mejorando la satisfacción del cliente.</li>
+                        <li><strong>Incremento en las Ventas:</strong> Aumenta tus conversiones y ventas con un sitio web optimizado y fácil de usar.</li>
+                        <li><strong>Ahorro de Tiempo:</strong> Deja la creación y el mantenimiento de tu sitio web en manos de profesionales y concédele tiempo a lo que mejor haces: tu negocio.</li>
+                        <li><strong>Soluciones Flexibles:</strong> Nos adaptamos a tus necesidades y ofrecemos soluciones escalables que crecen junto con tu negocio.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+    <script src="js/app.js"></script>
+
+   
+   
+    
+    
+    <!-- ACABA INFO VENTA -->
+
+    <!-- EMPIEZA FOOTER -->
+    <footer data-aos="fade-in">
+      <div class="container">
+        <div class="row">
+          <!-- Columna de "SÍGUENOS" -->
+          <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+            <p class="mb-3" style="color: rgb(160, 158, 155);">SÍGUENOS</p>
+            <div class="redes-sociales">
+              <a href="#"><svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"></path></svg></a>
+              <a href="https://www.instagram.com/rexowebsoficial?igsh=MW05Nzg4bHF0b2Njaw=="><svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path></svg></a>
+              <a href="#"><svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path></svg></a>
+              <a href="https://www.tiktok.com/@rexowebsoficial?is_from_webapp=1&sender_device=pc">
+                <svg width="16" height="16" fill="currentColor" viewBox="0 0 512 512">
+                  <path d="M412.19,118.66a109.27,109.27,0,0,1-9.45-5.5,132.87,132.87,0,0,1-24.27-20.62c-18.1-20.71-24.86-41.72-27.35-56.43h.1C349.14,23.9,350,16,350.13,16H267.69V334.78c0,4.28,0,8.51-.18,12.69,0,.52-.05,1-.08,1.56,0,.23,0,.47-.05.71,0,.06,0,.12,0,.18a70,70,0,0,1-35.22,55.56,68.8,68.8,0,0,1-34.11,9c-38.41,0-69.54-31.32-69.54-70s31.13-70,69.54-70a68.9,68.9,0,0,1,21.41,3.39l.1-83.94a153.14,153.14,0,0,0-118,34.52,161.79,161.79,0,0,0-35.3,43.53c-3.48,6-16.61,30.11-18.2,69.24-1,22.21,5.67,45.22,8.85,54.73v.2c2,5.6,9.75,24.71,22.38,40.82A167.53,167.53,0,0,0,115,470.66v-.2l.2.2C155.11,497.78,199.36,496,199.36,496c7.66-.31,33.32,0,62.46-13.81,32.32-15.31,50.72-38.12,50.72-38.12a158.46,158.46,0,0,0,27.64-45.93c7.46-19.61,9.95-43.13,9.95-52.53V176.49c1,.6,14.32,9.41,14.32,9.41s19.19,12.3,49.13,20.31c21.48,5.7,50.42,6.9,50.42,6.9V131.27C453.86,132.37,433.27,129.17,412.19,118.66Z"></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+    
+          <!-- Columna de "HORARIO" -->
+          <div class="col-12 col-md-4 text-center mb-3 mb-md-0">
+            <p class="mb-1" style="color: rgb(160, 158, 155);">HORARIO</p>
+            <p class="mb-0">De lunes a sábados: 16:00h a 20:00h</p>
+            <p class="mb-0">Domingos: Descanso</p>
+          </div>
+    
+          <!-- Columna del traductor -->
+          <div class="col-12 col-md-4 text-center">
+            <div id="google_translate_element" class="google mb-3"></div>
+          </div>
+        </div>
+    
+        <!-- Texto centrado -->
+        <div class="row">
+          <div class="col-12 text-center" style="color: white;">
+            <p class="ptexto2">GRACIAS</p>
+            <p class="ptexto3">POR SU ATENCIÓN</p>
+          </div>
+        </div>
+      </div>
+    
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+            {
+              pageLanguage: "es",
+              includedLanguages: "ca,eu,gl,en,fr,it,pt,de",
+              layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+              gaTrack: true,
+            },
+            "google_translate_element"
+          );
+        }
+      </script>
+      <script
+        type="text/javascript"
+        src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      ></script>
+    </footer>
+    
+    
+    <!-- ACABA FOOTER -->
+
+    <script src="js/aos.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
